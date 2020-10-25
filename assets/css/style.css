@@ -1,0 +1,251 @@
+/*
+	Salmon : #ed6663
+	Dark Blue : #00334e
+	Royal Blue : #145374
+	Green : #9bdeac
+	Light Grey : #e8e8e8
+	Grey : #a6a6a4
+	API Source : https://kawalcorona.com/api/
+				 https://data.covid19.go.id/public/api/prov.json
+				 https://data.covid19.go.id/public/api/update.json
+*/
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+	box-shadow: 5px 5px 5px rgba(240, 240, 240, .6);
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+.navbar-toggler-icon::after {
+	content: ':';
+	color: black !important;
+}
+
+.nav-link {
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+.nav-link.active {
+	font-weight: 600;
+}
+
+.header-jumbotron {
+	background-color: #e8e8e8;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rotate-img {
+  	margin-top: 80px;
+  	margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rotate-img {
+  	margin-top: -100px;
+  	margin-bottom: 30px;
+  }
+}
+
+.rotate-img {
+	transform: rotate(-90deg);
+}
+
+.img-custom {
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.header-jumbotron h1 {
+	color: #00334e;
+	font-size: 72px;
+	font-weight: 600;
+}
+
+.header-jumbotron p {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.info-bar-container {
+	margin-top: -100px;
+}
+
+.info-bar {
+	background-color: white;
+	height: 140px;
+	border-radius: 20px;
+	box-shadow: 15px 15px 10px rgba(235, 235, 235, .6);
+}
+
+.info-bar h3 {
+	color: #ed6663;
+	font-weight: 600;
+}
+
+.text-green {
+	color: #9bdeac !important;
+}
+
+.datas {
+	margin-top: 100px;
+}
+
+.data-row {
+	position: relative;
+}
+
+.btn-cari {
+	background-color: #00334e !important;
+}
+
+.btn-cari:hover {
+	background-color: #00339e !important;
+}
+
+.text-as-bg {
+	position: absolute;
+	top: 0;
+	opacity: .2;
+	font-size: 120px;
+	font-weight: 600;
+	margin-top: -50px;
+}
+
+.text-as-bg-two {
+	position: absolute;
+	top: 0;
+	opacity: .2;
+	font-size: 120px;
+	font-weight: 600;
+	margin-top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-as-bg-two {
+  	font-size: 90px;
+  	margin-top: -30px;
+  }
+}
+
+.badge-filter {
+	background-color: white;
+	color: #145374;
+}
+
+.badge-filter.active {
+	background-color: #145374;
+	color: white;
+}
+
+.pengenalan {
+	margin-top: 100px;
+	background-color: #e9ecef;
+}
+
+.badge-edukasi {
+	background-color: #00334e;
+	color: white;
+}
+
+.badge-edukasi:hover {
+	background-color: #00339e !important;
+	color: white;
+}
+
+.petunjuk {
+	margin-top: 100px;
+}
+
+.img-petunjuk {
+	height: 200px;
+}
+
+.gejala {
+	margin-top: 150px;
+}
+
+.gejala-container {
+	margin-top: 50px;
+}
+
+ul {
+	color: #9bdeac;
+}
+
+ul li {
+	font-size: 20px;
+}
+
+ul li h6 {
+	font-size: 20px;
+	color: black;
+}
+
+.footer {
+	background-color: #00334e;
+	margin-top: -100px;
+}
+
+.hr-custom {
+	border: 5px solid #145374;
+	width: 80px;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+
+.about-jumbotron h5 {
+	font-weight: 600;
+}
+
+.about-jumbotron p {
+	font-weight: 26px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn-logo {
+	background-color: white;
+	border-radius: 30px;
+	border: none;
+	box-shadow: inset 10px 5px 5px #a6a6a4;
+}
+
+.btn-logo:hover {
+	background-color: white;
+	border: none;
+}
+
+.img-logo {
+	height: 40px !important;
+	margin-right: 5px;
+}
+
+.contact {
+	padding: 80px;
+	background-image: url('../img/image1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.hr-white {
+	border: 1px solid white;
+}
+
+textarea {
+	resize: none;
+}
+
+.img-profile {
+	margin-top: -80px;
+}

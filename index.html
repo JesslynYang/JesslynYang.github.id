@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="body-two">
+		<nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+			<div class="container">
+			  <a class="navbar-brand text-dark" href="#">COVIData</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav ml-auto">
+			      <a class="nav-link text-dark active" href="#">Home</a>
+			      <a class="nav-link text-dark" href="tentang.html">Tentang</a>
+			    </div>
+			  </div>
+			</div>
+		</nav>
+
+		<div class="jumbotron jumbotron-fluid header-jumbotron">
+		  <div class="container">
+		  	<div class="row d-flex align-items-center">
+		  		<div class="col-12 d-flex justify-content-center d-md-none rotate-img">
+		  			<img src="assets/img/illustration5.png" class="img-custom">
+		  		</div>
+		  		<div class="col-12 col-md-8" data-aos="fade-right" data-aos-duration="4000">
+		  			<h1>Data Pasien COVID-19 Indonesia</h1>
+		  			<p>Gunakan data berikut untuk kepentingan penelitian maupun sebagai sumber informasi terpadu.</p>
+		  		</div>
+		  		<div class="d-none d-md-block col-md-4 rotate-img">
+		  			<img src="assets/img/illustration5.png" class="img-custom">
+		  		</div>
+		  	</div>
+		  </div>
+		</div>
+
+		<div class="container info-bar-container" data-aos="zoom-out" data-aos-duration="4000">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<div class="info-bar row d-flex align-items-center">
+						<div class="col-4">
+							<h3 class="text-center">333,449</h3>
+							<h5 class="text-center">Jumlah Kasus</h5>
+						</div>
+						<div class="col-4">
+							<h3 class="text-center text-green">255,027</h3>
+							<h5 class="text-center">Sembuh</h5>
+						</div>
+						<div class="col-4">
+							<h3 class="text-center">11,844</h3>
+							<h5 class="text-center">Meninggal</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="datas">
+			<div class="container mt-5">
+				<div class="row data-row">
+					<div class="col mx-auto d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="3000">
+						<h1 class="text-as-bg">Data</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="zoom-in" data-aos-duration="4000">
+						<h1 class="text-center">Data</h1>
+						<hr>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-3 col-lg-2 d-flex justify-content-center align-items-center">
+						<button class="btn badge badge-filter active" data-id="1">Semua</button>
+					</div>
+					<div class="col-3 col-lg-2 d-flex justify-content-center align-items-center">
+						<button class="btn badge badge-filter" data-id="2">Kelompok Umur</button>
+					</div>
+					<div class="col-3 col-lg-2 d-flex justify-content-center align-items-center">
+						<button class="btn badge badge-filter" data-id="3">Jenis Kelamin</button>
+					</div>
+					<div class="col-12 col-lg-4 ml-auto">
+						<div class="input-group">
+						  <input type="text" class="form-control" placeholder="Ketik Nama Provinsi....." id="input-search">
+						  <button class="btn btn-primary btn-cari">Cari</button>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-3 table-row">
+					<div class="col">
+						<div class="table-responsive">
+							<table class="table">
+							  <thead class="table-header">
+							    <tr>
+							      <th scope="col">#</th>
+							      <th scope="col">Provinsi</th>
+							      <th scope="col">Jumlah Kasus</th>
+							      <th scope="col">Sedang Dirawat</th>
+							      <th scope="col">Sembuh</th>
+							      <th scope="col">Meninggal</th>
+							    </tr>
+							  </thead>
+							  <tbody class="datas-container">
+							  </tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pengenalan p-5">
+			<div class="container mt-5">
+				<div class="row d-flex justify-content-center flex-column">
+					<div class="col" data-aos="fade-up" data-aos-duration="3000">
+						<h1 class="text-center">Apa Itu COVID 19?</h1>
+						<hr>
+						<a href="#" class="btn badge badge-danger badge-edukasi">Edukasi</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-4 float-right" data-aos="fade-right" data-aos-duration="3000">
+						<img src="assets/img/illustration6.svg" class="img-fluid">
+					</div>
+					<div class="col-lg-8" data-aos="fade-left" data-aos-duration="3000">
+						<p>COVID-19 adalah virus berbahaya yang menyerang sistem pernapasan makhluk hidup. Virus ini melanda dunia sejak Desember 2019 hingga saat ini. Virus ini dapat menular melalui cairan tubuh maupun kontak fisik langsung. Hingga kini, vaksin untuk mencegah virus ini belum ditemukan.</p>
+						<p>Beberapa orang yang terpapar virus ini menunjukkan beberapa gejala seperti batuk, pilek, sakit tenggorokan, demam tinggi, kehilangan kemampuan mencium bau, sesak napas, dll namun ada juga beberapa orang tidak menunjukkan gejala apapun. Gejala tidak dapat menjadi indikator yang akurat, akan tetapi lebih baik untuk kita berwaspada terhadap stamina dan kesehatan tubuh sendiri. Jika anda merasakan gejala-gejala tersebut dan merasakan ada hal yang tidak biasa terjadi pada tubuh anda, segera lakukan rapid test maupun swab test. Semakin cepat terdeteksi, semakin tinggi juga peluang untuk paru-paru anda pulih. Jangan panik.</p>
+						<p>Pandemi ini akan usai bila setiap dari kita mau bekerja sama untuk menerapkan protokol kesehatan seperti: mencuci tangan, menggunakan masker, jaga jarak dan tidak keluar apabila tidak memiliki kepentingan yang mendesak. Tetap #cuciTangan, #jagaJarak dan lakukan kegiatan #dariRumah</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="petunjuk">
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="4000">
+						<h1 class="text-as-bg-two">Petunjuk</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="zoom-in" data-aos-duration="3000">
+						<h1 class="text-center">Petunjuk</h1>
+						<a href="#" class="btn badge badge-danger badge-edukasi">Petunjuk</a>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-4 d-flex justify-content-center">
+						<div class="card" style="width: 15rem;" data-aos="flip-up" data-aos-duration="2000">
+						  <img src="assets/img/illustration1.svg" class="card-img-top img-petunjuk" alt="...">
+						  <div class="card-body">
+						    <p class="card-text">Jaga Jarak & Gunakan Masker</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-4 d-flex justify-content-center">
+						<div class="card" style="width: 15rem;" data-aos="flip-up" data-aos-duration="2500">
+						  <img src="assets/img/illustration3.svg" class="card-img-top img-petunjuk" alt="...">
+						  <div class="card-body">
+						    <p class="card-text">Jaga Kebersihan & Cuci Tangan Setelah Menyentuh Benda Sekita</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-4 d-flex justify-content-center">
+						<div class="card" style="width: 15rem;" data-aos="flip-up" data-aos-duration="3000">
+						  <img src="assets/img/illustration2.svg" class="card-img-top img-petunjuk" alt="...">
+						  <div class="card-body">
+						    <p class="card-text">Tetap Di Rumah #BelajarDariRumah #KerjaDariRumah #IbadahDariRumah</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gejala">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="3000">
+						<h3 class="text-as-bg">Gejala</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="zoom-in" data-aos-duration="4000">
+						<h1 class="text-center">Gejala</h1>
+						<a href="#" class="btn badge badge-danger">Gejala</a>
+					</div>
+				</div>
+				<div class="row d-flex align-items-center mt-5">
+					<div class="col-4 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="3000">
+						<img src="assets/img/illustration7.svg" class="img-fluid">
+					</div>
+					<div class="col-8 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
+						<ul>
+							<li><h6>Batuk</h6></li>
+							<li><h6>Pilek</h6></li>
+							<li><h6>Demam</h6></li>
+							<li><h6>Sakit Tenggorokan</h6></li>
+							<li><h6>Kesulitan Bernapas</h6></li>
+							<li><h6>Berkurangnya Kemampuan Mencium Bau</h6></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col" data-aos="fade-right" data-aos-duration="3000">
+						<h1 class="text-center text-white">Contact</h1>
+						<hr class="hr-white">
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-8 col-lg-6">
+						<form action="" class="d-flex justify-content-center flex-column">
+							<div class="form-group" data-aos="flip-up" data-aos-duration="3000">
+							    <label for="email" class="text-white">Your Email</label>
+							    <input type="email" class="form-control" id="email">
+							</div>
+							<div class="form-group" data-aos="flip-up" data-aos-duration="3000">
+							    <label for="message" class="text-white">Message</label>
+							    <textarea type="text" class="form-control" id="message" cols="10" rows="3"></textarea>
+							</div>
+							<button class="btn btn-primary" data-aos="flip-up" data-aos-duration="3000">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="container p-5">
+				<div class="row d-flex align-items-center">
+					<div class="col-md-6">
+						<h6 class="text-white">All Rights Reserved By Jesslyn Yang</h6>
+					</div>
+					<div class="col-md-6 d-md-flex justify-content-end">
+						<p class="text-white">Made in Medan, Indonesia</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+	<script src="assets/bootstrap/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
